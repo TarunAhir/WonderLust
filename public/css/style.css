@@ -141,3 +141,70 @@ font-family: "Plus Jakarta Sans", sans-serif !important;
   height: 200px;
   object-fit: cover;
 }
+
+
+
+@media (max-width : 550px) {
+    .filter {
+        display: none;
+    }
+}
+
+@media (max-width : 550px) {
+    .navbar-toggler {
+       height: 1.5rem !important;
+       width: 1.5rem !important;
+    }
+}
+
+@media (max-width : 550px) {
+    .toggle-line {
+       height: 1.3rem !important;
+       width: 1.3rem !important;  
+       position: relative;
+       right: 0.65rem !important;
+       bottom: 0.3rem !important;
+    }
+}
+
+@media (max-width : 550px) {
+    .form-control,.btn-search {
+        height: 2rem !important;
+        position: relative;
+        bottom: 2.5rem ;
+        left: 2rem !important;
+    }
+    .btn-search{
+        width: 5rem;
+        display:inline-flex !important;
+        align-items: center !important;
+    }
+    .form-control{
+        width: 18rem !important;
+    }
+    .btn-search i {  
+        font-size: 0.7rem !important;
+        position: relative;
+        right: 0.7rem !important;
+    }
+    .btn-search span{
+        position: relative !important;
+        right:  0.9rem !important;
+    }
+ 
+    .tax-toggle{
+        height: 2rem !important;
+        width: 8.3rem !important;
+        position: relative  !important;
+        left: 19rem !important;
+    }
+    .form-check-input{
+        height: 0.8rem !important;
+        position: relative !important;
+        top: 0.18rem !important;
+    }
+    .form-check-label {
+        font-size: 0.9rem !important;
+    }
+
+}
